@@ -34,7 +34,7 @@ def track_markup(_, user_id, channel, fplay):
         [
             InlineKeyboardButton(
                 text="๏ ᴍᴏʀᴇ ๏",
-                callback_data=f"PanelMarkup None|{chat_id}",
+                url=f"https://t.me/lolpagalokigc",
             ),
         ],
     ]
@@ -259,7 +259,7 @@ def queue_markup(_, videoid, chat_id):
         [
             InlineKeyboardButton(
                 text="๏ ᴍᴏʀᴇ ๏",
-                callback_data=f"PanelMarkup None|{chat_id}",
+                url=f"https://t.me/lolpagalokigc",
             ),
         ],
     ]
