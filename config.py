@@ -14,7 +14,7 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Bikash:Bikash@bikash.yl2nhcy.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 16000))
 
@@ -86,7 +86,7 @@ CLEANMODE_DELETE_MINS = int(
 )  # Remember to give value in Seconds
 
 # Get your pyrogram v2 session from @VIP_STRING_ROBOT on Telegram
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BQGxLs8Antv28lhz7pLvwsk9nMSPxdRc260SY6y7jnLXO2yl-FekftrtayiQewoU9SA_2zfkMi3VO8cvyjcneoAtah7peFOMtCBNE35wzSVBa01fQHP940Sbpxsy-_Q1jA2P66WUbNRYBm9i50Qz2gQNrDIsy9GivUf_SraXIL_O1fQYfdx5gNc3vlHzT464cOed0bLf3az38aLIkuKno7MJgFYMMoZc1J7iJGzPUJxF7A7NwKk2aoAusULmuPMBrtiQggkesgab2Ix6_SgXlzU2eeMwrKk3_I3eFHXhCsO4Oga5n9uE6IIl-RwCw_OiTcUQBP9VTjV7xdtrk3174Y2Itn-4OQAAAAE3MRRcAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -114,7 +114,7 @@ clean = {}
 autoclean = []
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/8be064de4663788e86535.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/039af07c725ba814a6d48.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://telegra.ph/file/b727863499abbc9a6a1e9.jpg"
